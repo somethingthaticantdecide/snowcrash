@@ -10,7 +10,7 @@ make_symlinks() {
 }
 
 run_flag() {
-  while :; do /home/user/level10 /tmp/token 0 >/dev/null 2>&1 ; done
+  while :; do /home/user/level10/level10 /tmp/token 0 > /dev/null 2>&1 ; done
 }
 
 run_netcat &
