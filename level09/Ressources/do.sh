@@ -1,5 +1,4 @@
-./level09 "0000000000000000000000000000000000000000000000000000000000"
-cd /tmp
+./level09 0000000000000000000000000000000000000000000000000000000000 
 echo '
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,7 +20,6 @@ int main(int argc, char **argv, char **env)
     printf("\n");
     return 0;
 }
-' > x.c
+' > /tmp/x.c
 gcc x.c -std=c99
-cd
- /tmp/a.out token
+/tmp/a.out token

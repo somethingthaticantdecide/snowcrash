@@ -1,6 +1,5 @@
 # #!/usr/bin/php
 # <?php
-    
 # function y($m) 
 # { 
 #     $m = preg_replace("/\./", " x ", $m); 
@@ -18,6 +17,11 @@
 # $r = x($argv[1], $argv[2]);
 # print $r;
 # ?>
+
+https://www.google.com/search?q=preg_replace+e+modifier+vulnerability
+https://wiki.php.net/rfc/remove_preg_replace_eval_modifier
+http://www.madirish.net/402
+https://security.stackexchange.com/questions/151142/understanding-preg-replace-filtering-exploitation
 
 echo '[x ${`getflag`}]' > /tmp/x
 ./level06 /tmp/x

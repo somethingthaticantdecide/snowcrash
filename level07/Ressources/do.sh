@@ -1,1 +1,1 @@
-export LOGNAME='&'getflag
+export LOGNAME='&getflag'

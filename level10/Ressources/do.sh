@@ -1,3 +1,6 @@
+https://www.utc.edu/sites/default/files/2021-04/race-condition.pdf
+https://github.com/firmianay/Life-long-Learner/blob/master/SEED-labs/race-condition-vulnerability-lab.md
+
 echo '
 #!/usr/bin/env bash
 
